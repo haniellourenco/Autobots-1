@@ -7,7 +7,7 @@ body {
 } /* = 14px*/
 main {
 	width: 100%;
-	margin: 0 auto;
+	min-width: 128rem;
 }
 
 h1 {
@@ -96,6 +96,7 @@ footer {
 	background-color: #202a2c;
 	width: 128rem;
 	padding: 4rem 0;
+	margin: auto;
 }
 
 .copyright {

@@ -26,13 +26,17 @@
 
 
 /*////////////////////////////// ----- Article *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+section{
+    display: flex;
+}
 article{
-    width: 76.8rem;
-    min-width: 76.8rem;
+    width: 76.83rem;/*76.83rem*/
     margin: 10rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    background-color: white;
 }
 .container-content{
     margin: 20px;
