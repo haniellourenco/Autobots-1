@@ -22,7 +22,7 @@ h1 {
 /*////////////////////////////// ----- Header *INICIO*  -----//////////////////////////////*/
 
 header {
-	box-shadow: 0 0 5px 10px #202a2c;
+	box-shadow: 0 0 5px 5px #202a2c;
 	background-color: #202a2c;
 }
 
@@ -40,9 +40,9 @@ header h1 {
 	margin: 0 auto;
 	/* background-color: blue; */
 	padding: 24px 0;
+
 	background-color: #202a2c;
 	box-shadow: 0 2px 5px #202a2c;
-
 }
 
 .caixa h1 {
@@ -88,21 +88,32 @@ nav a:hover {
 
 
 /*////////////////////////////// ----- Footer *INCIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
 footer {
 	background-color: #202a2c;
+
 }
+
 .container-footer{
 	background-color: #202a2c;
-	width: 128rem;
 	padding: 4rem 0;
+	width: 128rem;
+	
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
 	margin: auto;
+
+}
+.container-footer li{
+	color: white;
+	padding: 5px 0;
 }
 
 .copyright {
 	color: #ffffff;
 	font-size: 2rem;
-	margin-left: 10rem;
+	font-family: monospace;
+	letter-spacing: 5px;
 }
 /*////////////////////////////// ----- Footer *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
