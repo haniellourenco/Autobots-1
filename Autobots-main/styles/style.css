@@ -22,10 +22,8 @@ h1 {
 /*////////////////////////////// ----- Header *INICIO*  -----//////////////////////////////*/
 
 header {
-	padding: 24px 0;
+	box-shadow: 0 0 5px 10px #202a2c;
 	background-color: #202a2c;
-	width: 100%;
-	box-shadow: 0 2px 5px #202a2c;
 }
 
 header h1 {
@@ -41,6 +39,10 @@ header h1 {
 	width: 128rem;
 	margin: 0 auto;
 	/* background-color: blue; */
+	padding: 24px 0;
+	background-color: #202a2c;
+	box-shadow: 0 2px 5px #202a2c;
+
 }
 
 .caixa h1 {
@@ -88,9 +90,12 @@ nav a:hover {
 /*////////////////////////////// ----- Footer *INCIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 footer {
-	padding: 4rem 0;
 	background-color: #202a2c;
-	width: 100%;
+}
+.container-footer{
+	background-color: #202a2c;
+	width: 128rem;
+	padding: 4rem 0;
 }
 
 .copyright {
